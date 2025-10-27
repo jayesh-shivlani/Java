@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class income_tax_calculator {
+public class IncomeTaxCalculator {
     public static void main(String agrs[]) {
 
         Scanner sc = new Scanner(System.in);

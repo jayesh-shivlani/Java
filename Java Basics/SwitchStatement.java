@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class switch_statement {
+public class SwitchStatement {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);

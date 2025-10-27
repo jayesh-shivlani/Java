@@ -2,7 +2,7 @@
 
 import java.util.*; // imports a package required to use the scanner class || package is something that contains so many classes within it and each class has some codes inside it.
 
-public class Input_in_Java {
+public class InputInJava {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in); // we can use any name other then sc for scanner class
 

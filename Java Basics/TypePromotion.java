@@ -1,6 +1,6 @@
 //Type Promotion in Java
 
-public class type_promotion {
+public class TypePromotion {
     public static void main(String args[]) {
         char a = 'a';
         char b = 'b';

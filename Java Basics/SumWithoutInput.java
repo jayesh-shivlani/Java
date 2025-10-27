@@ -1,6 +1,6 @@
 //Sum of 2 numbers
 
-public class Sum_without_input {
+public class SumWithoutInput {
     public static void main(String args[]) {
         int a = 10;
         int b = 5;

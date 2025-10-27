@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class product_with_input {
+public class ProductWithInput {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();

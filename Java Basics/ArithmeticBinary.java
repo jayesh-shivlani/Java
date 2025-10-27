@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class arithmetic_binary {
+public class ArithmeticBinary {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);

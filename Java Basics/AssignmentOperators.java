@@ -1,6 +1,6 @@
 //Program to show Assignment operators
 
-public class assignment_operators {
+public class AssignmentOperators {
     public static void main(String args[]) {
 
         int A = 10;

@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class else_if {
+public class ElseIf {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 //Type Conversion in Java
 
-public class type_conversion {
+public class TypeConversion {
     public static void main(String args[]) {
         
         int a = 35;

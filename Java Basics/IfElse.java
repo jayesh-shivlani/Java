@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class if_else {
+public class IfElse {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

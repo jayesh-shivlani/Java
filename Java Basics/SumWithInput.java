@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class sum_with_input {
+public class SumWithInput {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 

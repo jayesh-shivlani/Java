@@ -1,6 +1,6 @@
 //Program to show Binary Arithmetic operators
 
-public class arithmetic_unary {
+public class ArithmeticUnary {
     public static void main(String args[]) {
 
         int a = 10; 

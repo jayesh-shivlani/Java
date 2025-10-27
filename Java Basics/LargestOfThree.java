@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class largest_of_3 {
+public class LargestOfThree {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
