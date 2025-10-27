@@ -19,11 +19,11 @@ public class Game {
                 }
 
                 else if (n > random) {
-                    System.out.println(" The guess is larger than the answer");
+                    System.out.println("The guess is larger than the answer");
                 }
 
                 else if (n < random && n > 0) {
-                    System.out.println(" The guess is smaller than the answer");
+                    System.out.println("The guess is smaller than the answer");
 
                 }
 
