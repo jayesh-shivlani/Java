@@ -1,4 +1,4 @@
-//Program to show Binary Arithmetic operators
+//Program to show Unary Arithmetic operators
 
 public class ArithmeticUnary {
     public static void main(String args[]) {
