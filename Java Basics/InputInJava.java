@@ -1,40 +1,57 @@
-//How to take inputs in Java
+// Program to demonstrate different ways to take input in Java
+// Using Scanner class to read various data types
 
-import java.util.*; // imports a package required to use the scanner class || package is something that contains so many classes within it and each class has some codes inside it.
+// Import java.util package which contains Scanner class
+// A package contains multiple classes with predefined methods
+import java.util.*;
 
 public class InputInJava {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in); // we can use any name other then sc for scanner class
+        // Create Scanner object to read input from System.in (keyboard)
+        // 'sc' is just a variable name, can use any valid identifier
+        Scanner sc = new Scanner(System.in);
 
-        String word = sc.next(); // saves only one word until the whitespace
+        // next(): Reads a single word (stops at whitespace)
+        String word = sc.next();
         System.out.println(word);
 
-        sc.nextLine(); // used here to catch the empty line after sc.next() to avoid exception
+        // nextLine(): Consumes the leftover newline character from previous input
+        // This prevents skipping the next nextLine() call
+        sc.nextLine();
 
-        String line = sc.nextLine(); // saves the entire string
+        // nextLine(): Reads entire line including spaces until newline character
+        String line = sc.nextLine();
         System.out.println(line);
 
-        int number = sc.nextInt(); // saves integer value
+        // nextInt(): Reads an integer value
+        int number = sc.nextInt();
         System.out.println(number);
 
-        float decimal = sc.nextFloat(); // saves decimal value
+        // nextFloat(): Reads a floating-point number (decimal)
+        float decimal = sc.nextFloat();
         System.out.println(decimal);
 
-        boolean check = sc.nextBoolean(); // saves true or false
+        // nextBoolean(): Reads boolean value (true or false)
+        boolean check = sc.nextBoolean();
         System.out.println(check);
 
-        byte b = sc.nextByte(); // saves byte values
+        // nextByte(): Reads byte value (8-bit integer: -128 to 127)
+        byte b = sc.nextByte();
         System.out.println(b);
 
-        short s = sc.nextShort(); // saves short values
+        // nextShort(): Reads short value (16-bit integer)
+        short s = sc.nextShort();
         System.out.println(s);
 
-        double d = sc.nextDouble(); // saves decimals of long type
+        // nextDouble(): Reads double value (large decimal numbers)
+        double d = sc.nextDouble();
         System.out.println(d);
 
-        long l = sc.nextLong(); // saves integer of long type
+        // nextLong(): Reads long value (64-bit integer for very large numbers)
+        long l = sc.nextLong();
         System.out.println(l);
 
-        sc.close(); // use to close the scanner class
+        // close(): Closes the Scanner object to free up resources and prevent memory leak
+        sc.close();
     }
 }

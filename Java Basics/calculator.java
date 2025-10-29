@@ -1,41 +1,51 @@
-//Program to make a calculator using switch statement
+// Program to create a simple calculator using switch statement
+// Performs basic arithmetic operations: +, -, *, /, %
 
 import java.util.*;
 
 public class Calculator {
     public static void main(String args[]) {
 
+        // Create Scanner object to read input
         Scanner sc = new Scanner(System.in);
 
+        // Read first number from user
         System.out.print("Enter A : ");
         float A = sc.nextFloat();
+        
+        // Read second number from user
         System.out.print("Enter B : ");
         float B = sc.nextFloat();
+        
+        // Read operator from user
         System.out.print("Enter operator : ");
-        char operator = sc.next().charAt(0); // To convert string into character
+        // charAt(0) extracts the first character from the input string
+        char operator = sc.next().charAt(0);
 
+        // Switch statement to perform operation based on operator
         switch (operator) {
 
-            case '+':
+            case '+':  // Addition
                 System.out.println(A + B);
                 break;
-            case '-':
+            case '-':  // Subtraction
                 System.out.println(A - B);
                 break;
-            case '*':
+            case '*':  // Multiplication
                 System.out.println(A * B);
                 break;
-            case '/':
+            case '/':  // Division
                 System.out.println(A / B);
                 break;
-            case '%':
+            case '%':  // Modulo (Remainder)
                 System.out.println(A % B);
                 break;
-            default:
+            default:   // Invalid operator
                 System.out.println("Wrong operator");
 
         }
 
+        // Close the scanner
         sc.close();
 
     }

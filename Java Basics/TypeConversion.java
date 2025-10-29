@@ -1,18 +1,25 @@
-//Type Conversion in Java
+// Program to demonstrate Type Conversion (Widening) in Java
+// Type Conversion: Automatic conversion from smaller to larger data type
+// Also called Implicit Casting or Widening Conversion
 
 public class TypeConversion {
     public static void main(String args[]) {
         
+        // Automatic conversion from int to float (Widening)
         int a = 35;
-        float b = a; // type conversion can be done here as float > int in terms of size.
-        System.out.println(b);
+        // Java automatically converts int to float (no data loss)
+        // float is larger than int in terms of storage capacity
+        float b = a;
+        System.out.println(b); // Output: 35.0
 
+        // Example 1: This will give error (commented out)
         // float c = 35.65f;
-        // int d = c; ---> It will give type mismatch error because here data will be lost.
-        // System.out.println(d);
+        // int d = c; // ERROR: Cannot convert float to int automatically (data loss)
+        // Narrowing conversion requires explicit casting: int d = (int) c;
 
+        // Example 2: This will give error (commented out)
         // int i = 34;
-        // boolean b = i; ---> It will give type mismatch error because of type is not compatible.
-        // System.out.println(b);
+        // boolean b = i; // ERROR: int and boolean are not compatible types
+        // No conversion possible between int and boolean in Java
     }
 }
