@@ -12,11 +12,11 @@ public class Calculator {
         // Read first number from user
         System.out.print("Enter A : ");
         float A = sc.nextFloat();
-        
+
         // Read second number from user
         System.out.print("Enter B : ");
         float B = sc.nextFloat();
-        
+
         // Read operator from user
         System.out.print("Enter operator : ");
         // charAt(0) extracts the first character from the input string
@@ -25,22 +25,22 @@ public class Calculator {
         // Switch statement to perform operation based on operator
         switch (operator) {
 
-            case '+':  // Addition
+            case '+': // Addition
                 System.out.println(A + B);
                 break;
-            case '-':  // Subtraction
+            case '-': // Subtraction
                 System.out.println(A - B);
                 break;
-            case '*':  // Multiplication
+            case '*': // Multiplication
                 System.out.println(A * B);
                 break;
-            case '/':  // Division
+            case '/': // Division
                 System.out.println(A / B);
                 break;
-            case '%':  // Modulo (Remainder)
+            case '%': // Modulo (Remainder)
                 System.out.println(A % B);
                 break;
-            default:   // Invalid operator
+            default: // Invalid operator
                 System.out.println("Wrong operator");
 
         }
