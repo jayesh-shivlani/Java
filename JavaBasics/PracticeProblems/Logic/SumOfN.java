@@ -1,7 +1,5 @@
 // Program to find sum of first N natural numbers
 
-package JavaBasics;
-
 import java.util.Scanner;
 
 public class SumOfN {
