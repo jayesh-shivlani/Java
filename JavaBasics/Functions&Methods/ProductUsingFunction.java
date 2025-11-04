@@ -1,7 +1,5 @@
 // Program to find product of two using function
 
-package JavaBasics;
-
 import java.util.Scanner;
 
 public class ProductUsingFunction {

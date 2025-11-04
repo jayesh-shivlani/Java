@@ -4,8 +4,6 @@
    return statement;
    }*/
 
-package JavaBasics;
-
 import java.util.Scanner;
 
 public class FunctionWithParameters {

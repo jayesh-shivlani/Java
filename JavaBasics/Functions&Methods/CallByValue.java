@@ -1,7 +1,5 @@
 // program to swap numbers using call by value
 
-package JavaBasics;
-
 import java.util.Scanner;
 
 public class CallByValue {
