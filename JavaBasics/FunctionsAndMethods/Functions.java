@@ -4,6 +4,8 @@
  * return statement;
  * } */
 
+package JavaBasics.FunctionsAndMethods;
+
 public class Functions {
     // public static is access modifier
     public static void printHelloWorld() {
