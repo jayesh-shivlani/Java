@@ -5,6 +5,7 @@
 import java.util.*;
 
 public class TernaryOperator {
+
     public static void main(String args[]) {
 
         // Create Scanner object to read input
@@ -17,7 +18,7 @@ public class TernaryOperator {
         // Ternary operator syntax: condition ? value_if_true : value_if_false
         // If A is divisible by 2 (even), assign "even", otherwise assign "odd"
         String type = (A % 2 == 0) ? "even" : "odd";
-        
+
         // Display the result
         System.out.println(type);
 

@@ -4,6 +4,7 @@
 import java.util.*;
 
 public class IncomeTaxCalculator {
+
     public static void main(String agrs[]) {
 
         // Create Scanner object to read input
@@ -18,14 +19,10 @@ public class IncomeTaxCalculator {
         // Slab 1: Income less than 5 lakhs - No tax
         if (income < 5) {
             tax = 0.0f;
-        }
-
-        // Slab 2: Income between 5 and 10 lakhs - 20% tax
+        } // Slab 2: Income between 5 and 10 lakhs - 20% tax
         else if (income >= 5 && income <= 10) {
             tax = (20 * income) / 100;
-        }
-
-        // Slab 3: Income more than 10 lakhs - 50% tax
+        } // Slab 3: Income more than 10 lakhs - 50% tax
         else {
             tax = (50 * income) / 100;
         }

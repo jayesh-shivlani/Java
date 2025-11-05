@@ -2,6 +2,7 @@
 // Logical operators are used to combine multiple boolean expressions
 
 public class LogicalOperators {
+
     public static void main(String agrs[]) {
 
         // Logical AND (&&): Returns true only if BOTH conditions are true

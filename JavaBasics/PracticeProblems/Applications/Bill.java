@@ -4,6 +4,7 @@
 import java.util.*;
 
 public class Bill {
+
     public static void main(String args[]) {
 
         // Create Scanner object to read input
@@ -16,10 +17,10 @@ public class Bill {
 
         // Calculate total price before tax
         float total = pen + pencil + eraser;
-        
+
         // Calculate 18% GST on total
         float tax = (18 * total) / 100;
-        
+
         // Calculate final bill amount (total + tax)
         float bill = total + tax;
 

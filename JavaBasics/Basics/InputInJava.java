@@ -6,6 +6,7 @@
 import java.util.*;
 
 public class InputInJava {
+
     public static void main(String args[]) {
         // Create Scanner object to read input from System.in (keyboard)
         // 'sc' is just a variable name, can use any valid identifier

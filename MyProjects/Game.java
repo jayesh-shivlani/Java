@@ -1,23 +1,20 @@
 package MyProjects;
+
 /**
  * Number Guessing Game
- * 
- * Description:
- * A simple game where the player tries to guess a random number between 1 and 100.
- * The game provides hints (too high/too low) after each guess.
- * Player can quit anytime by entering a negative number.
- * 
- * Learning Concepts:
- * - Random number generation
- * - Do-while loops
- * - Conditional statements
- * - User input handling
- * - Try-with-resources
+ *
+ * Description: A simple game where the player tries to guess a random number
+ * between 1 and 100. The game provides hints (too high/too low) after each
+ * guess. Player can quit anytime by entering a negative number.
+ *
+ * Learning Concepts: - Random number generation - Do-while loops - Conditional
+ * statements - User input handling - Try-with-resources
  */
 
 import java.util.Scanner;
 
 public class Game {
+
     public static void main(String[] args) {
 
         // Try-with-resources: Scanner automatically closes when done
@@ -44,19 +41,13 @@ public class Game {
                 if (guess == random) {
                     System.out.println("Congratulations! You guessed the correct number!");
                     break; // Exit the loop - game over (win)
-                }
-
-                // Check if guess is too high
+                } // Check if guess is too high
                 else if (guess > random) {
                     System.out.println("Too high! Try a smaller number.");
-                }
-
-                // Check if guess is too low (but still positive)
+                } // Check if guess is too low (but still positive)
                 else if (guess > 0) {
                     System.out.println("Too low! Try a larger number.");
-                }
-
-                // User entered negative number - wants to quit
+                } // User entered negative number - wants to quit
                 else {
                     System.out.println("\nGame Over! You quit.");
                     System.out.println("The correct number was: " + random);

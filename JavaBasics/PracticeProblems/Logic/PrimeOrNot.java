@@ -3,6 +3,7 @@
 import java.util.*; // used for scanner & Math object
 
 public class PrimeOrNot {
+
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to check : "); // Take input
@@ -16,7 +17,7 @@ public class PrimeOrNot {
                     IsPrime = false;
                 }
             }
-            if (IsPrime) { 
+            if (IsPrime) {
                 System.out.println("n is prime");
             } else {
                 System.out.println("n is not prime");

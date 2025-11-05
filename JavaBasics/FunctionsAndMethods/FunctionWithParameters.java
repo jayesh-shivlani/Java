@@ -3,20 +3,19 @@
    //do something
    return statement;
    }*/
-
 package JavaBasics.FunctionsAndMethods;
 
 import java.util.Scanner;
 
 public class FunctionWithParameters {
 
-    public static int calculateSum(int num1,int num2) { // parameters or formal parameters
+    public static int calculateSum(int num1, int num2) { // parameters or formal parameters
         int sum = num1 + num2;
         return sum; // sum in main & sum in calculatesum function are different variables
     }
-    
+
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in); 
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter value of a : "); // Take input 1 from user
         int a = sc.nextInt(); // store input 1 from user
         System.out.print("Enter value of b : "); // Take inout 2 from user

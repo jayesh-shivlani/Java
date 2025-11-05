@@ -1,5 +1,4 @@
 // program to swap numbers using call by value
-
 package JavaBasics.FunctionsAndMethods;
 
 import java.util.Scanner;
@@ -11,8 +10,8 @@ public class CallByValue {
         a = b;
         b = temp;
         System.out.println("After Swapping, a = " + a + " b = " + b); // Store a copy of a & b of main function, no
-                                                                      // change of value in main funtion only limited
-                                                                      // within this function
+        // change of value in main funtion only limited
+        // within this function
     }
 
     public static void main(String args[]) {

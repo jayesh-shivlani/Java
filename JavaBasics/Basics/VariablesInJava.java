@@ -2,19 +2,20 @@
 // Variables are containers that store data values
 
 public class VariablesInJava {
+
     public static void main(String[] args) {
         // Declare and initialize integer variables
         int a = 10;
         int b = 5;
-        
+
         // Declare and initialize String variable
         String name = "Tony Stark";
-        
+
         // Display initial values
         System.out.println(a);    // Output: 10
         System.out.println(b);    // Output: 5
         System.out.println(name); // Output: Tony Stark
-        
+
         // Variables are mutable - their values can be changed
         a = 50;
         System.out.println(a);    // Output: 50

@@ -3,8 +3,9 @@
 // Used when converting larger data type to smaller (may cause data loss)
 
 public class TypeCasting {
+
     public static void main(String args[]) {
-        
+
         // Casting float to int (Narrowing)
         float a = 25.999f;
         // (int) explicitly converts float to int

@@ -4,6 +4,7 @@
 import java.util.*;
 
 public class IfElse {
+
     public static void main(String[] args) {
 
         // Create Scanner object to read input
@@ -16,9 +17,7 @@ public class IfElse {
         // if condition: Check if age is 18 or above
         if (age >= 18) {
             System.out.println("Adult");
-        }
-
-        // else block: Executes when if condition is false
+        } // else block: Executes when if condition is false
         else {
             System.out.println("Not Adult");
         }

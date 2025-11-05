@@ -2,8 +2,8 @@ package JavaBasics.Loops;
 // Program: While Loop Demo
 
 // Purpose: Print "Hello World" 100 times using a while loop
-
 public class WhileLoop {
+
     public static void main(String args[]) {
 
         // Initialize counter to 0

@@ -1,8 +1,8 @@
 // Program to print inverted star pattern
-
 package JavaBasics.Patterns;
 
 public class InvertedStarPattern {
+
     public static void main(String[] args) {
         int TotalLine = 4; // Total number of lines of pattern
         for (int line = 1; line <= TotalLine; line++) { // Outer loop

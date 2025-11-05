@@ -4,6 +4,7 @@
 import java.util.*;
 
 public class Average {
+
     public static void main(String args[]) {
 
         // Create Scanner object to read input
@@ -16,12 +17,12 @@ public class Average {
 
         // Calculate sum of three numbers
         int sum = A + B + C;
-        
+
         // Calculate average
         // Note: Use 3.0 instead of 3 to perform floating-point division
         // If we use 3, Java will perform integer division and truncate the decimal part
         double average = sum / 3.0;
-        
+
         // Display the average
         System.out.println(average);
 

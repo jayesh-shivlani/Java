@@ -4,6 +4,7 @@
 import java.util.*;
 
 public class SwitchStatement {
+
     public static void main(String args[]) {
 
         // Create Scanner object to read input
@@ -14,22 +15,26 @@ public class SwitchStatement {
         int button = sc.nextInt();
 
         // Switch statement: Compares 'button' value with each case
-        switch(button) {
+        switch (button) {
 
             // Case 1: When button value is 1
-            case 1 : System.out.println("Samosa");
-                        break;  // break prevents fall-through to next case
-                        
+            case 1:
+                System.out.println("Samosa");
+                break;  // break prevents fall-through to next case
+
             // Case 2: When button value is 2
-            case 2 : System.out.println("Burger");
-                        break;
-                        
+            case 2:
+                System.out.println("Burger");
+                break;
+
             // Case 3: When button value is 3
-            case 3 : System.out.println("Cold drink");
-                        break;
-                        
+            case 3:
+                System.out.println("Cold drink");
+                break;
+
             // Default: Executes when no case matches
-            default : System.out.println("We wake up");
+            default:
+                System.out.println("We wake up");
 
         }
 

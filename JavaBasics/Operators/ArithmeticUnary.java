@@ -2,10 +2,11 @@
 // Unary operators work with a single operand
 
 public class ArithmeticUnary {
+
     public static void main(String args[]) {
 
         // Pre-Increment (++a): Increments the value first, then returns it
-        int a = 10; 
+        int a = 10;
         int b = ++a; // a becomes 11, then assigns 11 to b
         System.out.println("A = " + a); // Output: 11
         System.out.println("B = " + b); // Output: 11
@@ -28,5 +29,5 @@ public class ArithmeticUnary {
         System.out.println("G = " + g); // Output: 9
         System.out.println("H = " + h); // Output: 10
     }
-    
+
 }

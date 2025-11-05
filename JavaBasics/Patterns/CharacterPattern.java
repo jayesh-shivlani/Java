@@ -1,8 +1,8 @@
 // Program to print character pattern
-
 package JavaBasics.Patterns;
 
 public class CharacterPattern {
+
     public static void main(String[] args) {
         int TotalLine = 4; // Total number of lines of pattern
         char character = 'A'; // Initialize character with A

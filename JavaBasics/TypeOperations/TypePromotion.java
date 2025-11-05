@@ -3,15 +3,16 @@
 // Rules: byte, short, char -> int; if any operand is long -> long; if any is float -> float; if any is double -> double
 
 public class TypePromotion {
+
     public static void main(String args[]) {
-        
+
         // Example 1: char promoted to int in expressions
         char a = 'a';
         char b = 'b';
         // Both a and b are automatically promoted to int during subtraction
         int sum = b - a;
-        System.out.println((int)b); // Output: 98 (ASCII of 'b')
-        System.out.println((int)a); // Output: 97 (ASCII of 'a')
+        System.out.println((int) b); // Output: 98 (ASCII of 'b')
+        System.out.println((int) a); // Output: 97 (ASCII of 'a')
         System.out.println(sum);    // Output: 1
 
         // Example 2: byte and short promoted to int
@@ -35,7 +36,7 @@ public class TypePromotion {
         byte bb = 5;
         // bb = bb * 2; // ERROR: bb*2 is promoted to int, cannot assign int to byte
         // Solution: Explicitly cast the result back to byte
-        bb = (byte)(bb * 2);
+        bb = (byte) (bb * 2);
         System.out.println(bb); // Output: 10
     }
 }

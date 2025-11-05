@@ -4,6 +4,7 @@
 import java.util.*;
 
 public class LargestOfThree {
+
     public static void main(String args[]) {
 
         // Create Scanner object to read input
@@ -18,21 +19,15 @@ public class LargestOfThree {
         int C = sc.nextInt();
 
         // Check if A is greater than both B and C
-        if((A > B) && (A > C)) {
+        if ((A > B) && (A > C)) {
             System.out.println("A is largest");
-        }
-
-        // If A is not largest, check if B is greater than C
-        else if(B > C) {
+        } // If A is not largest, check if B is greater than C
+        else if (B > C) {
             System.out.println("B is largest");
-        }
-
-        // If neither A nor B is largest, check if C is greater than B
-        else if(C > B) {
+        } // If neither A nor B is largest, check if C is greater than B
+        else if (C > B) {
             System.out.println("C is largest");
-        }
-
-        // If none of the above conditions are true, all three are equal
+        } // If none of the above conditions are true, all three are equal
         else {
             System.out.println("A, B & C are equal");
         }

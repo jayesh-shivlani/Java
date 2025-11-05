@@ -4,6 +4,7 @@
 import java.util.*;
 
 public class ArithmeticBinary {
+
     public static void main(String args[]) {
 
         // Create Scanner object to read input
@@ -12,7 +13,7 @@ public class ArithmeticBinary {
         // Read first number from user
         System.out.println("Enter a : ");
         int a = sc.nextInt();
-        
+
         // Read second number from user
         System.out.println("Enter b : ");
         int b = sc.nextInt();

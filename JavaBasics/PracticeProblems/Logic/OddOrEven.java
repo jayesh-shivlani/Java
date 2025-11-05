@@ -4,6 +4,7 @@
 import java.util.*;
 
 public class OddOrEven {
+
     public static void main(String args[]) {
 
         // Create Scanner object to read input
@@ -17,9 +18,7 @@ public class OddOrEven {
         // If remainder after division by 2 is 0, number is even
         if (A % 2 == 0) {
             System.out.println("even");
-        }
-
-        // If remainder is not 0, number is odd
+        } // If remainder is not 0, number is odd
         else {
             System.out.println("odd");
         }

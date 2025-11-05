@@ -2,6 +2,7 @@
 // Assignment operators are used to assign values to variables with operations
 
 public class AssignmentOperators {
+
     public static void main(String args[]) {
 
         // Addition Assignment (+=): Adds value to variable and assigns result
