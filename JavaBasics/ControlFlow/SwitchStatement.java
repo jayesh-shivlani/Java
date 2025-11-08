@@ -1,3 +1,5 @@
+package JavaBasics.ControlFlow;
+
 // Program to demonstrate switch statement
 // Switch statement allows selection among multiple options based on a value
 

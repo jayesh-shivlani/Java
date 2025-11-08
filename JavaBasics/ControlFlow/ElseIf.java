@@ -1,3 +1,5 @@
+package JavaBasics.ControlFlow;
+
 // Program to demonstrate else-if statements
 // Categorizes person based on age using multiple conditions
 

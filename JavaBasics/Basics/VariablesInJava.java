@@ -1,3 +1,5 @@
+package JavaBasics.Basics;
+
 // Program to demonstrate Variables in Java
 // Variables are containers that store data values
 

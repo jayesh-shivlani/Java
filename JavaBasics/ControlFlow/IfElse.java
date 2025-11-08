@@ -1,3 +1,5 @@
+package JavaBasics.ControlFlow;
+
 // Program to demonstrate if-else statements
 // Checks if a person is adult or not based on age
 

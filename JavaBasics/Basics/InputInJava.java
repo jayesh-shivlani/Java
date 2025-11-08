@@ -1,3 +1,5 @@
+package JavaBasics.Basics;
+
 // Program to demonstrate different ways to take input in Java
 // Using Scanner class to read various data types
 
