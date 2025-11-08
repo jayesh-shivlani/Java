@@ -6,7 +6,7 @@ import java.util.*;
 
 public class HollowRectangle {
 
-    // function to print the required pattern
+    // function to print hollow rectangle pattern
     public static void hollow_rectangle(int TotRows, int TotCols) { // formal parameters
         // outer loop --> rows
         for (int row = 1; row <= TotRows; row++) {
