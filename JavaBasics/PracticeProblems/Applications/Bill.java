@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Applications;
+
 // Program to calculate bill with 18% GST
 // Formula: Final Bill = Total + (18% of Total)
 

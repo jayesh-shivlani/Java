@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Print a 4 by 4 Square 
 
 public class SquarePattern {

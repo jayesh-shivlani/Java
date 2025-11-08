@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to check whether a number is prime or not
 
 import java.util.*; // used for scanner & Math object

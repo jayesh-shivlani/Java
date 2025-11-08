@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to find the largest among three numbers
 // Uses if-else ladder to compare three numbers
 

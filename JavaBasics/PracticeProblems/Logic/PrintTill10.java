@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to print nummbers from 1 to 10
 
 public class PrintTill10 {

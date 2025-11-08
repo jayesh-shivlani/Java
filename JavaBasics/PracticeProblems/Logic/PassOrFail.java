@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to check if a student passes or fails
 // Uses ternary operator for conditional assignment
 // Pass criteria: Marks >= 33

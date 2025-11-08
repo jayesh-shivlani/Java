@@ -1,6 +1,6 @@
-// Program to print all the prime numbers within a given range from user
-
 package JavaBasics.FunctionsAndMethods;
+
+// Program to print all the prime numbers within a given range from user
 
 import java.util.*;
 

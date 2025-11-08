@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Calculations;
+
 // Program to calculate sum of 2 numbers by taking input from user
 // Demonstrates basic addition operation with user input
 

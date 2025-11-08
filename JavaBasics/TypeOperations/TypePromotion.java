@@ -1,3 +1,5 @@
+package JavaBasics.TypeOperations;
+
 // Program to demonstrate Type Promotion in Java
 // Type Promotion: Automatic conversion of smaller types to larger types during expressions
 // Rules: byte, short, char -> int; if any operand is long -> long; if any is float -> float; if any is double -> double

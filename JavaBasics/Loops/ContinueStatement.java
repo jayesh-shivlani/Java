@@ -1,5 +1,6 @@
-// Program to show continue statement
 package JavaBasics.Loops;
+
+// Program to show continue statement
 
 public class ContinueStatement {
 

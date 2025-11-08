@@ -1,9 +1,10 @@
+package JavaBasics.FunctionsAndMethods;
+
 // Program to show working of functions
 /* Syntax -- returnType name() {
  * // body
  * return statement;
  * } */
-package JavaBasics.FunctionsAndMethods;
 
 public class Functions {
 

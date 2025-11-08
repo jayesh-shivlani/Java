@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to check if a number is odd or even
 // Logic: If a number is divisible by 2 (remainder = 0), it's even; otherwise odd
 

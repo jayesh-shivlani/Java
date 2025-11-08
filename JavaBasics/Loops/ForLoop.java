@@ -1,6 +1,7 @@
+package JavaBasics.Loops;
+
 // Program to show For loop
 // Print Hello World 10 times
-package JavaBasics.Loops;
 
 public class ForLoop {
 

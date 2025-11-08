@@ -1,5 +1,6 @@
-// Program which skip iterations when entered multiple of 10
 package JavaBasics.Loops;
+
+// Program which skip iterations when entered multiple of 10
 
 import java.util.Scanner;
 

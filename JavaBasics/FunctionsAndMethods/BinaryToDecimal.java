@@ -1,6 +1,6 @@
-// Program to convert Binary into Decimal
-
 package JavaBasics.FunctionsAndMethods;
+
+// Program to convert Binary into Decimal
 
 import java.util.*;
 

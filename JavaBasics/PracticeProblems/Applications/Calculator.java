@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Applications;
+
 // Program to create a simple calculator using switch statement
 // Performs basic arithmetic operations: +, -, *, /, %
 

@@ -1,9 +1,10 @@
+package JavaBasics.FunctionsAndMethods;
+
 // Program to show function with parameters
 /* syntax -- returnType name(type para1, type para2) {
    //do something
    return statement;
    }*/
-package JavaBasics.FunctionsAndMethods;
 
 import java.util.Scanner;
 

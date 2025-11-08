@@ -1,5 +1,6 @@
-// Program to print character pattern
 package JavaBasics.Patterns;
+
+// Program to print character pattern
 
 public class CharacterPattern {
 

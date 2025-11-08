@@ -1,5 +1,6 @@
-// Program to print star pattern using nested loop
 package JavaBasics.Patterns;
+
+// Program to print star pattern using nested loop
 
 public class StarPattern {
 

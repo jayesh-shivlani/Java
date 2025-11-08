@@ -1,3 +1,5 @@
+package JavaBasics.TypeOperations;
+
 // Program to demonstrate Type Casting in Java
 // Type Casting: Manually converting one data type to another (Narrowing Conversion)
 // Used when converting larger data type to smaller (may cause data loss)

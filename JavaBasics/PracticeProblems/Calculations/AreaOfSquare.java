@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Calculations;
+
 // Program to calculate Area of Square
 // Formula: Area = side²
 

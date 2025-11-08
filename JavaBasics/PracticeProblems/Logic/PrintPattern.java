@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to print a pattern without using loops
 // Demonstrates basic printing of a descending star pattern
 

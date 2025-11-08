@@ -1,3 +1,5 @@
+package JavaBasics.Operators;
+
 // Program to demonstrate Relational Operators in Java
 // Relational operators compare two values and return boolean result (true/false)
 

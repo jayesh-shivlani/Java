@@ -1,6 +1,7 @@
+package JavaBasics.FunctionsAndMethods;
+
 // Program to find factorial of n using FUNCTION
 // Factorial of n = 1 x 2 x 3 x ... x n
-package JavaBasics.FunctionsAndMethods;
 
 import java.util.Scanner;
 

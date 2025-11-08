@@ -1,3 +1,5 @@
+package JavaBasics.Operators;
+
 // Program to demonstrate Logical Operators in Java
 // Logical operators are used to combine multiple boolean expressions
 

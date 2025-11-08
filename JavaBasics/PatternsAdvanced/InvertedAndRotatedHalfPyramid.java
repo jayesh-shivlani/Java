@@ -1,6 +1,6 @@
-// program to print inverted & rotated half pyramid using nested loops
-
 package JavaBasics.PatternsAdvanced;
+
+// program to print inverted & rotated half pyramid using nested loops
 
 import java.util.Scanner;
 

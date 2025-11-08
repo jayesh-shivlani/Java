@@ -1,6 +1,7 @@
+package JavaBasics.FunctionsAndMethods;
+
 // Program to find Binomial Coefficient using Function
 // BinCoeff = n!/(r!x(n-r)!)
-package JavaBasics.FunctionsAndMethods;
 
 import java.util.Scanner;
 

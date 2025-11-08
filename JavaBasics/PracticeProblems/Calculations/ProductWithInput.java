@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Calculations;
+
 // Program to calculate product of 2 numbers by taking input from user
 // Demonstrates basic multiplication operation with user input
 

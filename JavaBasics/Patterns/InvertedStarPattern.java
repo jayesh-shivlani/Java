@@ -1,5 +1,6 @@
-// Program to print inverted star pattern
 package JavaBasics.Patterns;
+
+// Program to print inverted star pattern
 
 public class InvertedStarPattern {
 

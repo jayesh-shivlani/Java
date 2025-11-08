@@ -1,6 +1,6 @@
-// Program to print Inverted Pyramid with Numbers using nested loops
-
 package JavaBasics.PatternsAdvanced;
+
+// Program to print Inverted Pyramid with Numbers using nested loops
 
 import java.util.Scanner;
 

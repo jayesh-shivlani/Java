@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to find sum of first N natural numbers
 
 import java.util.Scanner;

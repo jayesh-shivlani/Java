@@ -1,6 +1,6 @@
-// Program to print a hollow rectangle pattern using nested loop
-
 package JavaBasics.PatternsAdvanced;
+
+// Program to print a hollow rectangle pattern using nested loop
 
 import java.util.*;
 

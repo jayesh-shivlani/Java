@@ -1,6 +1,7 @@
+package JavaBasics.Loops;
+
 // Do while Loop
 // Program to print Hello World 10 times using do while loop
-package JavaBasics.Loops;
 
 public class DoWhileLoop {
 

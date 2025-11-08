@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Applications;
+
 // Program to calculate income tax based on income slabs
 // Tax Slabs: <5 lakhs: 0%, 5-10 lakhs: 20%, >10 lakhs: 50%
 

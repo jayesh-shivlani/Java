@@ -1,3 +1,5 @@
+package JavaBasics.TypeOperations;
+
 // Program to demonstrate Type Conversion (Widening) in Java
 // Type Conversion: Automatic conversion from smaller to larger data type
 // Also called Implicit Casting or Widening Conversion

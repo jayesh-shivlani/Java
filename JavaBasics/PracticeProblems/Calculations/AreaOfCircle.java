@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Calculations;
+
 // Program to calculate Area of Circle
 // Formula: Area = π * r²
 

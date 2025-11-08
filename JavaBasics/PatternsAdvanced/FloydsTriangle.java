@@ -1,6 +1,6 @@
-// Program to print Floyd's Triangle using nested loops
-
 package JavaBasics.PatternsAdvanced;
+
+// Program to print Floyd's Triangle using nested loops
 
 import java.util.Scanner;
 

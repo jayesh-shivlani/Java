@@ -1,5 +1,6 @@
-// Program to write Half Pyramid
 package JavaBasics.Patterns;
+
+// Program to write Half Pyramid
 
 public class HalfPyramid {
 

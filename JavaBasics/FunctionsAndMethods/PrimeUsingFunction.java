@@ -1,5 +1,6 @@
-// Program to find prime number using functions
 package JavaBasics.FunctionsAndMethods;
+
+// Program to find prime number using functions
 
 import java.util.*;
 

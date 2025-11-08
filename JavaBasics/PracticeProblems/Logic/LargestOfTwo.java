@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to find the largest of two numbers
 // Compares two numbers and determines which is greater
 

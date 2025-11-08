@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to print N numbers
 
 import java.util.Scanner;

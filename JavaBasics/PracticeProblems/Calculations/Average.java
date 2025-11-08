@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Calculations;
+
 // Program to calculate Average of 3 numbers
 // Formula: Average = Sum of all numbers / Count of numbers
 

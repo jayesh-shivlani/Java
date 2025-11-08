@@ -1,3 +1,5 @@
+package JavaBasics.Operators;
+
 // Program to demonstrate Binary Arithmetic Operators in Java
 // Binary operators work with two operands
 

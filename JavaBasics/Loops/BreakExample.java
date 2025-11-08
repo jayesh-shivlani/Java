@@ -1,5 +1,6 @@
-// Program to keep taking input until condition is met
 package JavaBasics.Loops;
+
+// Program to keep taking input until condition is met
 
 import java.util.Scanner;
 

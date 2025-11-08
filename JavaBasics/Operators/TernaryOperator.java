@@ -1,3 +1,5 @@
+package JavaBasics.Operators;
+
 // Program to demonstrate Ternary Operator (Conditional Operator)
 // Ternary operator: condition ? valueIfTrue : valueIfFalse
 // It's a shorthand for simple if-else statements

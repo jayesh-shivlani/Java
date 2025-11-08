@@ -1,3 +1,5 @@
+package JavaBasics.PracticeProblems.Logic;
+
 // Program to print reverse of a given number
 
 import java.util.Scanner;
