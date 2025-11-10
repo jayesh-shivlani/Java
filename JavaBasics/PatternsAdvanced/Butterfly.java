@@ -30,7 +30,7 @@ public class Butterfly {
             System.out.println();
         }
 
-        // 2nd half
+        // 2nd half --> reverse the outer loop of 1st half to get the mirror image
         for (int row = totRows; row >= 1; row--) {
 
             // stars
