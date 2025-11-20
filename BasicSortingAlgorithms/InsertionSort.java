@@ -6,24 +6,24 @@ package BasicSortingAlgorithms;
 import java.util.*;
 
 public class InsertionSort {
-    
+
     // Function to sort an array using Insertion Sort
-    public static void Insertion_Sort(int arr[], int n) { // Formal parameters are an array & total no of elements n 
+    public static void Insertion_Sort(int arr[], int n) { // Formal parameters are an array & total no of elements n
 
         // Outer loop --> total no of turns = n
-        for(int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++) {
 
             int curr = arr[i]; // Storing the element in a temporary variable
             int prev = i - 1; // Finding out the sorted part
 
             // Finding the right position to insert the element
-            while(prev >=0 && arr[prev] > curr) {
-                arr[prev+1] = arr[prev];
+            while (prev >= 0 && arr[prev] > curr) {
+                arr[prev + 1] = arr[prev];
                 prev--;
             }
 
             // Insertion of the element at the right position
-            arr[prev+1] = curr; 
+            arr[prev + 1] = curr;
         }
     }
 
@@ -49,7 +49,7 @@ public class InsertionSort {
             arr[i] = sc.nextInt();
         }
 
-        Insertion_Sort(arr, n); // Function call with arguments array & n 
+        Insertion_Sort(arr, n); // Function call with arguments array & n
         Print_Array(arr, n); // Function call with arguments array & n
 
         sc.close(); // close the Scanner Object

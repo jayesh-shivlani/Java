@@ -15,10 +15,12 @@ public class BubbleSort {
         // outer loop --> No of turns = (n-1)
         for (int turn = 0; turn < n - 1; turn++) {
 
-            // inner loop --> check adjacent elements & do swapping, check till (n-1-turn)th term
+            // inner loop --> check adjacent elements & do swapping, check till (n-1-turn)th
+            // term
             for (int j = 0; j < n - 1 - turn; j++) {
 
-                // check if current element is larger than adjacent element, if true then swap the elements
+                // check if current element is larger than adjacent element, if true then swap
+                // the elements
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
@@ -30,7 +32,7 @@ public class BubbleSort {
             // if swaps remain 0 then it means array is already sorted
             if (swaps == 0) {
                 System.out.println("Array already sorted...!!!");
-                break; // break from the loop 
+                break; // break from the loop
             }
         }
     }
@@ -52,7 +54,7 @@ public class BubbleSort {
         System.out.print("Enter total no of elements : "); // Take total no of elements from user
         int n = sc.nextInt(); // store the input
 
-        // Store the elements 
+        // Store the elements
         System.out.println("Enter elements : ");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();

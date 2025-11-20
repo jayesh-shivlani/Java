@@ -24,7 +24,7 @@ public class InbuiltSort {
         PrintArray(array);
 
         Arrays.sort(array, 1, 4); // we add a starting & ending index incase if we want to sort a specific part of
-                                                     // an array
+                                  // an array
         PrintArray(array);
 
         Integer a[] = { 5, 1, 3, 4, 2 }; // Integer object

@@ -11,20 +11,20 @@ public class CountingSort {
     public static void Counting_Sort(int arr[], int n) { // formal parameters are an array & total no of elements n
 
         int largest = Integer.MIN_VALUE; // initialize largest with minus infinity to find the range
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             largest = Math.max(largest, arr[i]); // using the max function to find the largest element(Range)
         }
 
         // frequency count
-        int count[] = new int[largest+1]; // initialize a count array to count the frequency
-        for(int i = 0; i < n; i++) {
+        int count[] = new int[largest + 1]; // initialize a count array to count the frequency
+        for (int i = 0; i < n; i++) {
             count[arr[i]]++; // counting the frequency of elements
         }
 
         // sorting
         int j = 0; // initialize j with 0 to use as an index
-        for(int i = 0; i < count.length; i++) {
-            while (count[i] >0) {
+        for (int i = 0; i < count.length; i++) {
+            while (count[i] > 0) {
                 arr[j] = i; // storing the elements in ascending order in accordence of their frequency
                 j++; // updating index
                 count[i]--; // updating frequency
@@ -49,7 +49,7 @@ public class CountingSort {
         System.out.print("Enter total no of elements : "); // Take total no of elements from user
         int n = sc.nextInt(); // store the input
 
-        // Store the elements 
+        // Store the elements
         System.out.println("Enter elements : ");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
