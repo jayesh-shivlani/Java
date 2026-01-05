@@ -1,6 +1,3 @@
-📌 Java Learning & DSA Repository
+Data Structures and Algorithms in Java :
 
-This repository contains all the Java programs I write while learning Core Java and Data Structures & Algorithms.
-I update it regularly with new topics and solutions as part of my learning in public journey.
-
-Feel free to suggest where I can improve.
+This repositry contains all the learnings of my DSA in Java, feel free to suggest where I can improve
