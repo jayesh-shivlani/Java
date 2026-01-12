@@ -8,7 +8,7 @@ public class CleariBits {
 
     // function to clear the last i bits
     public static int ClearIBits(int n, int i) { // formal parameters are the number & the ith position
-        // int bitMask = -1 << i;
+        // int bitMask = (-1) << i;
         int bitMask = (~0) << i; // initialize a bitMask with NOT of 0 and left shift it with ith position
         return n & bitMask; // return the new number by clearing the last i bits of the number by taking AND
                             // of n & bitMask
