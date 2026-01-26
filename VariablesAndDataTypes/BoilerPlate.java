@@ -1,4 +1,4 @@
-package JavaBasics;
+package VariablesAndDataTypes;
 
 // Boilerplate code in Java
 // This is the basic structure required for every Java program

@@ -1,4 +1,4 @@
-package PracticeProblems.Logic;
+package VariablesAndDataTypes;
 
 // Program to print a pattern without using loops
 // Demonstrates basic printing of a descending star pattern

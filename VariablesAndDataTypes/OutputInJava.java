@@ -1,4 +1,4 @@
-package JavaBasics;
+package VariablesAndDataTypes;
 
 // Program to demonstrate different ways to print output in Java
 // Shows the difference between print() and println()
