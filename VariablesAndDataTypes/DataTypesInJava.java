@@ -1,4 +1,4 @@
-package JavaBasics;
+package VariablesAndDataTypes;
 
 // Program to demonstrate different Primitive Data Types in Java
 // Java has 8 primitive data types
