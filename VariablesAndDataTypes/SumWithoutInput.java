@@ -1,4 +1,4 @@
-package PracticeProblems.Calculations;
+package VariablesAndDataTypes;
 
 // Program to calculate sum of 2 numbers without taking input
 // Uses hardcoded values to demonstrate basic addition

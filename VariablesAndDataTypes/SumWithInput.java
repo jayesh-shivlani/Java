@@ -1,4 +1,4 @@
-package PracticeProblems.Calculations;
+package VariablesAndDataTypes;
 
 // Program to calculate sum of 2 numbers by taking input from user
 // Demonstrates basic addition operation with user input
