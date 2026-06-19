@@ -4,4 +4,4 @@
 
 ## Lectures :
 
-### 1. [Flowcharts & Pseudocodes](FlowchartsAndPseudocodes/README.md)
+### 1. [Flowcharts & Pseudocodes](FlowchartsAndPseudocodes)
