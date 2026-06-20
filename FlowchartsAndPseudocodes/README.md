@@ -146,7 +146,7 @@ H --> I
         4.1.1 Print B is Max  
     4.2 Else  
         4.2.1 Print C is Max
-5.  Exit  
+5.  End
 ```
 
 ---
@@ -193,8 +193,8 @@ G -- Yes --> H2[/Print N is not Prime/]
 G -- No --> I[div = div + 1]
 I --> E
 
-%% Merge everything at the EXIT
-F --> J([EXIT])
+%% Merge everything at the END
+F --> J([END])
 H1 --> J
 H2 --> J
 ```
@@ -205,17 +205,18 @@ H2 --> J
 2. Input number N
 3. If N < 2  
     3.1 Print N is not Prime  
-    3.2 Exit
+    3.2 End
 4. Let div = 2
 5. While (div * div <= N) do 
     5.1 If (N % div == 0)                             
         5.1.1 Print N is not Prime  
-        5.1.2 Exit  
-    5.2 div = div + 1
+        5.1.2 End
+    5.2 Else
+        5.2.1 div = div + 1
 6. Print N is Prime
-7. Exit
+7. End
 ---
-NOTE : While loop - runs till the condition is met (Use when you don't know the number of iterations)
+NOTE : While loop - runs till the condition is true (Use when you don't know the number of iterations)
 ```
 
 ---
@@ -234,7 +235,7 @@ graph TD
 A([START]) --> B[/Input Number N/]
 B --> C["Sum = (N * (N+1)) / 2"]
 C --> D[/Print Sum/]
-D --> E([EXIT])
+D --> E([END])
 ```
 
 **Algorithm :**
@@ -243,7 +244,7 @@ D --> E([EXIT])
 2. Input Number N
 3. Calculate Sum = (N*(N+1))/2
 4. Print Sum 
-5. Exit
+5. End
 ```
 
 ---
@@ -254,13 +255,13 @@ D --> E([EXIT])
 ```mermaid
 graph TD
 
-A([Start]) --> B[/Input Number N/]
+A([START]) --> B[/Input Number N/]
 B --> C[Let val = 1, sum = 0]
 C --> D{Is val <= N ?}
 D -- No --> F[/Print sum/]
 D -- Yes --> E[sum = sum + val <br/> val = val + 1]
 E --> D
-F --> H([EXIT])
+F --> H([END])
 ```
 
 **Pseudocode :**
@@ -272,7 +273,7 @@ F --> H([EXIT])
     4.1 sum = sum + val
     4.2 val = val + 1
 5. Print sum
-6. Exit
+6. End
 ```
 
 ---
