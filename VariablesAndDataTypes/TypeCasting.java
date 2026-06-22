@@ -1,4 +1,4 @@
-package TypeOperations;
+package VariablesAndDataTypes;
 
 // Program to demonstrate Type Casting in Java
 // Type Casting: Manually converting one data type to another (Narrowing Conversion)

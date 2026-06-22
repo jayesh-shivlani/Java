@@ -1,4 +1,4 @@
-package TypeOperations;
+package VariablesAndDataTypes;
 
 // Program to demonstrate Type Conversion (Widening) in Java
 // Type Conversion: Automatic conversion from smaller to larger data type

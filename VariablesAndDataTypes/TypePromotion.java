@@ -1,4 +1,4 @@
-package TypeOperations;
+package VariablesAndDataTypes;
 
 // Program to demonstrate Type Promotion in Java
 // Type Promotion: Automatic conversion of smaller types to larger types during expressions
@@ -15,7 +15,7 @@ public class TypePromotion {
         int sum = b - a;
         System.out.println((int) b); // Output: 98 (ASCII of 'b')
         System.out.println((int) a); // Output: 97 (ASCII of 'a')
-        System.out.println(sum);    // Output: 1
+        System.out.println(sum); // Output: 1
 
         // Example 2: byte and short promoted to int
         short c = 23;
@@ -30,7 +30,8 @@ public class TypePromotion {
         float f = 20.25f;
         long l = 30;
         double dd = 40;
-        // All types (int, float, long) are promoted to double (largest type in expression)
+        // All types (int, float, long) are promoted to double (largest type in
+        // expression)
         double add = i + f + l + dd;
         System.out.println(add); // Output: 100.25
 

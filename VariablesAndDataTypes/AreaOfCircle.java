@@ -1,4 +1,4 @@
-package PracticeProblems.Calculations;
+package VariablesAndDataTypes;
 
 // Program to calculate Area of Circle
 // Formula: Area = π * r²
@@ -15,7 +15,8 @@ public class AreaOfCircle {
         float radius = sc.nextFloat();
 
         // Calculate area using formula: π * r²
-        // Add 'f' suffix to specify float type (by default Java considers decimal numbers as double)
+        // Add 'f' suffix to specify float type (by default Java considers decimal
+        // numbers as double)
         float area = (3.14f * radius * radius);
 
         // Display the calculated area

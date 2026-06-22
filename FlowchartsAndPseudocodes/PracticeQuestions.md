@@ -1,16 +1,25 @@
 # Practice Questions of Flowcharts & Pseudocodes
 
-### 1. Calculate area of a circle
+## Questions :
 
-- Input : radius r
+1. [Calculate the area of a circle](#1-calculate-the-area-of-a-circle)
+2. [Find the greatest from 2 numbers](#2-find-the-greatest-from-2-numbers)
+3. [Print the Even numbers between 9 and 100](#3-print-the-even-numbers-between-9-and-100)
+4. [Calculating the average from 25 exam scores](#4-calculating-the-average-from-25-exam-scores)
+
+---
+
+### 1. Calculate the area of a circle
+
+- Input : radius R
 - Output : area of circle
 
 **Flowchart :**
 ```mermaid
-graph TD 
+flowchart TD 
 
-A([START]) --> B[/Input radius r/]
-B --> C["area = (22*r*r)/7"]
+A([START]) --> B[/Input r/]
+B --> C["area = (22xRxR)/7"]
 C --> D[/Print area/]
 D --> E([END])
 ```
@@ -18,24 +27,24 @@ D --> E([END])
 **Pseudocode :**
 ```text
 1. Start
-2. Input radius r
-3. area = (22*r*r)/7
+2. Input R
+3. area = (22xRxR)/7
 4. Print area
 5. End
 ```
 
 ---
 
-### 2. Find the greatest from 2 Numbers
+### 2. Find the greatest from 2 numbers
 
-- Input : numbers A, B
+- Input : Numbers A & B
 - Output : Max of 2 numbers
 
 **Flowchart :**
 ```mermaid
-graph TD
+flowchart TD
 
-A([START]) --> B[/Input numbers A, B/]
+A([START]) --> B[/Input A & B/]
 B --> C{Is A > B ?}
 
 C -- Yes --> D[/Print A is max/]
@@ -53,7 +62,7 @@ H --> F
 **Pseudocode :**
 ```text
 1. Start
-2. Input numbers A, B
+2. Input A & B
 3. If A > B ? do
     3.1 Print A is max
 4. else 
@@ -65,17 +74,17 @@ H --> F
 
 ---
 
-### 3. Print the Even Numbers between 9 and 100
+### 3. Print the Even numbers between 9 and 100
 
 - Input : nothing
-- Output : Even Numbers between 9 and 100
+- Output : Even numbers between 9 and 100
 
 **Flowchart :**
 ```mermaid 
-graph TD
+flowchart TD
 
 A([START]) --> B[Let i = 10]
-B --> C{Is i <= 100 ?}
+B --> C{Is i <= 98 ?}
 
 C -- Yes --> D[/Print i/]
 D --> E[i = i + 2]
@@ -88,7 +97,7 @@ C -- No --> F([END])
 ```text 
 1. Start
 2. Let i = 10
-3. While i <= 100 do
+3. While i <= 98 do
     3.1 Print i
     3.2 i = i + 2
 4. End
@@ -96,14 +105,14 @@ C -- No --> F([END])
 
 ---
 
-### 4. Calculate the average from 25 exam scores
+### 4. Calculating the average from 25 exam scores
 
 - Input : 25 exam scores
 - Output : average of 25 exam scores
 
 **Flowchart :**
 ```mermaid 
-graph TD 
+flowchart TD 
 
 A([START]) --> B[Let sum = 0, i = 0]
 B --> C{Is i < 25 ?}
