@@ -8,6 +8,6 @@ public class BoilerPlate {
     // main method: Entry point of Java program execution
     // JVM starts program execution from this method
     public static void main(String[] args) {
-        //write your code here
+        // write your code here
     }
 }

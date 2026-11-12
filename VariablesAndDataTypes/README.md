@@ -20,28 +20,3 @@
 16. How does Java code runs ? 
 
 ---
-
-### Creating a file in Java
-
-- Extension : Tells us which type of file it is  
-.java for Java
-
-- Class & file name should always be same in java.
-- When we run a Java program, it starts from the main function.
-- Use cd folderName to reach your file folder  
-To compile - javac fileName (If there are no errors, it will create a .class file --> byte code)  
-To run - java fileName
-
-```java
-System.out.pritnln("Hello World!");
-```
-
-| Component      | Description                   | Notes |
-|:-              | :-                            | :-    |
-| System         | Built-in standard class       |
-| out            | Standard output stream object |
-| println        | Method / Function             |
-| "Hello World!" | Output String                 |
-| ;              | Statement terminator          |
-
-  
